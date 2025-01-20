@@ -7,7 +7,7 @@ This project provides a starting point for building an application with **Expres
 - Mongoose integration with MongoDB for database operations
 - Example schema and models for managing data
 
-## Installation
+### Installation
 
 1. Clone the repository:
    ```bash
@@ -32,10 +32,16 @@ This project provides a starting point for building an application with **Expres
    npm start
    ```
 
-## Usage
+### Usage
 This starter template provides the basic structure for building RESTful APIs. You can extend it by adding more routes, controllers, and Mongoose models.
 
-## Technologies
+## Local Setup with Docker
+- Uses custom image: [kernel528/mongodb-community-server](https://hub.docker.com/repository/docker/kernel528/mongodb-community-server/tags)
+- MongoDB Docker Source Repo:  [mongodb-docker](https://github.com/kernel528/mongo-docker)
+  - This image and source contain sample seed data in the `mongo-seed` folder for testing purposes.
+- Deploy container based on the `mongo-docker` image and follow the steps to seed data (optional).
+
+#### Technologies
 - **Express**: Web framework for Node.js.
 - **Mongoose**: ODM library for MongoDB.
 - **MongoDB**: NoSQL database.
